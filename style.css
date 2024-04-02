@@ -1,0 +1,140 @@
+@font-face {
+    font-family: Futura;
+    src: url(./Futura-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy;
+    src: url(./Gilroy-Medium.ttf);
+}
+.cursor{
+    height: 40px;
+    position: absolute;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+}
+.items ul{
+    display: flex;
+    list-style-type: none;
+    font-family: futura;
+}
+.items ul li{
+   margin-left: 30px;
+   margin-right: 20px;
+ 
+}
+li:hover{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 5px;
+   
+   
+}
+#page1{
+    min-height: 100vh;
+    position: relative;
+    width: 100%;
+}
+#page1>h1{
+   font-family: futura;
+   font-size: 34.8vh;
+   line-height: 14vw;
+   letter-spacing: -2px;
+   margin-bottom: 5px;
+
+}
+
+.play{
+   padding: 6vw ;
+   background-color: rgba(85, 84, 84, 0.398);
+   color: #fff;
+   font-size: 1.5vw;
+   position: fixed;
+   text-transform: uppercase;
+   font-family: futura;
+   border-radius: 50%;
+}
+.video-container img{
+    width: 100%;
+}
+#page2 h1{
+    text-align: center;
+    font-family: futura;
+    font-size: 66px;
+}
+#page2 h1{
+    text-align: center;
+    font-family: futura;
+    font-size: 14vh;
+    margin-bottom: 5px;
+}
+#page2 .underline{
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 5px;
+    position: relative;
+   
+}
+.underline:hover{
+   text-decoration: underline;
+    
+}
+.item-boxs{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    text-align: center;
+}
+.box1{
+    background-color: red;
+    width: 32%;
+    height: 100vh;
+    margin-left: 10px;
+    background-image: url('https://cdn.sanity.io/images/w8f1ak3c/production/9032e317a6741221ae543fdae5d05160819f9a44-1500x2250.jpg/DSC0079_Dexter%20Kim.jpg?rect=0,0,1500,2008&fp-x=0.47794117647058826&fp-y=0.4461323529411765&w=420&h=700&fit=crop&crop=focalpoint&auto=format');
+    background-size: cover;
+   
+ }
+.box1:hover{
+    scale: (0.9);
+}
+.box2{
+    background-color: crimson;
+    width: 32%;
+    margin-left: 10px;
+   
+    background-image: url('https://cdn.sanity.io/images/w8f1ak3c/production/37f238f3cfe57fbb478e56ae8a5cf3033babc08e-2939x4408.jpg/AB5I2191_NikkiT0.jpg?rect=148,0,2645,4408&w=420&h=700&fit=min&auto=format');
+    background-size: cover;
+}   
+.box3{
+   
+    background-color: rgb(255, 136, 136);
+    width: 32%;
+    margin-left: 10px;
+    background-image: url('https://cdn.sanity.io/images/w8f1ak3c/production/d3151106849ff2494d66916cf554c68a0603444d-902x1500.png/Rectangle%20220.png?rect=1,0,900,1500&w=420&h=700&fit=min&auto=format');
+    background-size: cover;
+   
+}
+.product-sec{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-bottom: 80px;
+    padding-bottom: 2px;
+}
+@media only screen and (min-width:240px) and (max-width:375px) {
+    #page1>h1 {
+      font-size: 17.8vh;
+    }
+    #page2 h1 {
+        font-size: 15vh;
+        
+    }
+    
+}
